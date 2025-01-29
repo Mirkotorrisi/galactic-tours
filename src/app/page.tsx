@@ -9,7 +9,7 @@ export default function Home() {
     <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
       <Hero />
       <DestinationsList />
-      <div className="container px-8">
+      <div className="container px-8 mx-auto">
         {destinations.map((d) => (
           <div key={d.slug} className="space-y-2">
             <Title title={d.name} />
