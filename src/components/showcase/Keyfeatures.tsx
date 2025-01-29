@@ -6,7 +6,7 @@ type Props = {
   hideTitle?: boolean;
 };
 
-export default function KeyFeatures({ features, hideTitle }: Props) {
+const KeyFeatures = ({ features, hideTitle }: Props) => {
   return (
     <div className="mt-16 space-y-8">
       {!hideTitle && (
@@ -28,4 +28,6 @@ export default function KeyFeatures({ features, hideTitle }: Props) {
       </div>
     </div>
   );
-}
+};
+
+export default KeyFeatures;
