@@ -2,6 +2,31 @@
 
 Galactic Tours is a web application that allows users to book interstellar travel packages. The application is built with Next.js
 
+## Launching the Application
+
+To launch the application, follow these steps:
+
+1. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+2. **Start the application**:
+   ```bash
+   npm run dev
+   ```
+
+The application will be available at `http://localhost:3000`.
+
+## Dependencies
+
+- Next.js
+- Tailwind.CSS
+- tailwind-merge
+- lucide-react
+- Swiper.js
+
 ## SSR - Showcase
 
 The server-side rendered (SSR) pages are responsible for displaying detailed travel information and the list of available travels. By leveraging SSR, these pages ensure that the travel data is fetched and rendered on the server before being sent to the client, resulting in faster load times and improved SEO.
@@ -47,20 +72,3 @@ These data structures are essential for maintaining consistency and ensuring tha
 ## Mock Data
 
 Mock data is used during development to simulate API responses. This is achieved by creating mock JSON files and using them in place of actual API calls. This allows for testing and development without the need for a live backend.
-
-## Launching the Application
-
-To launch the application, follow these steps:
-
-1. **Install dependencies**:
-
-   ```bash
-   npm install
-   ```
-
-2. **Start the application**:
-   ```bash
-   npm run dev
-   ```
-
-The application will be available at `http://localhost:3000`.
