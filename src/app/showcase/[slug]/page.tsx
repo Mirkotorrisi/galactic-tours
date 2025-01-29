@@ -1,9 +1,7 @@
 import { getDestination } from "@/actions/getDestination";
 import Details from "@/components/showcase/DestinationDetails";
 
-export type PageProps = { params: { slug: string; q?: string } };
-
-export default async function Page({ params }: PageProps) {
+export default async function Page({ params }: { params: { slug: string } }) {
   const { slug } = params;
   const destination = getDestination(slug);
   return (
