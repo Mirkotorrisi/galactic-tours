@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Proxima Centauri b",
+    "systemName": "Alpha Centauri",
+    "slug": "proxima-centauri-b",
+    "description": "Earth's closest potentially habitable exoplanet, featuring vast red-tinted plains under the light of its red dwarf star.",
+    "travelTime": {
+      "lightSpeed": "4.2 years",
+      "warpDrive": "2.1 months",
+      "quantumFold": "3 days"
+    },
+    "coordinates": {
+      "rightAscension": "14h 29m 42.9s",
+      "declination": "-62° 40′ 46″"
+    },
+    "images": ["/proxima-c.jpg", "/proxima-c2.jpg"],
+    "keyFeatures": [
+      {
+        "name": "Crimson Plains",
+        "description": "Endless plains bathed in red starlight, perfect for atmospheric photography"
+      },
+      {
+        "name": "Tidally Locked Zones",
+        "description": "Experience perpetual sunset in the habitable terminator zone"
+      },
+      {
+        "name": "Magnetic Auroras",
+        "description": "Spectacular light shows caused by intense stellar activity"
+      }
+    ],
+    "activities": [
+      {
+        "name": "Surface Expedition",
+        "description": "Guided tours of the habitable terminator zone",
+        "duration": "3 Earth days",
+        "price": 5000
+      },
+      {
+        "name": "Aurora Photography",
+        "description": "Professional photography sessions of the magnetic auroras",
+        "duration": "6 Earth hours",
+        "price": 1200
+      }
+    ],
+    "basePrice": 15000,
+    "currency": "Galactic Credits"
+  },
+  {
+    "name": "Kepler-186f",
+    "slug": "kepler-186f",
+    "systemName": "Kepler-186",
+    "description": "First Earth-sized planet discovered in the habitable zone of another star, known for its unique crystalline formations.",
+    "travelTime": {
+      "lightSpeed": "582 years",
+      "warpDrive": "1.2 years",
+      "quantumFold": "2 weeks"
+    },
+    "coordinates": {
+      "rightAscension": "19h 54m 36.65s",
+      "declination": "+43° 57′ 18.1″"
+    },
+    "images": ["/proxima-c.jpg", "/proxima-c2.jpg"],
+    "keyFeatures": [
+      {
+        "name": "Crystal Valleys",
+        "description": "Vast valleys filled with naturally occurring crystalline structures"
+      },
+      {
+        "name": "Bioluminescent Flora",
+        "description": "Native plant life that produces its own light"
+      },
+      {
+        "name": "Floating Mountains",
+        "description": "Mountain ranges that hover above the surface due to magnetic fields"
+      }
+    ],
+    "activities": [
+      {
+        "name": "Crystal Mining Experience",
+        "description": "Mine your own souvenir crystals with professional equipment",
+        "duration": "4 Earth hours",
+        "price": 2500
+      },
+      {
+        "name": "Floating Mountain Climb",
+        "description": "Guided climbing expedition of the floating mountains",
+        "duration": "2 Earth days",
+        "price": 7500
+      }
+    ],
+    "basePrice": 25000,
+    "currency": "Galactic Credits"
+  },
+  {
+    "name": "TRAPPIST-1e",
+    "slug": "trappist-1e",
+    "systemName": "TRAPPIST-1",
+    "description": "Rocky super-Earth in the TRAPPIST-1 system, famous for its intricate network of underground cities.",
+    "travelTime": {
+      "lightSpeed": "39 years",
+      "warpDrive": "4.5 months",
+      "quantumFold": "1 week"
+    },
+    "coordinates": {
+      "rightAscension": "23h 06m 29.28s",
+      "declination": "-05° 02′ 28.5″"
+    },
+    "images": ["/proxima-c.jpg", "/proxima-c2.jpg"],
+    "keyFeatures": [
+      {
+        "name": "Subterranean Metropolis",
+        "description": "Vast network of underground cities with advanced architecture"
+      },
+      {
+        "name": "Quantum Gardens",
+        "description": "Gardens where plants exist in multiple states simultaneously"
+      },
+      {
+        "name": "Time Dilation Falls",
+        "description": "Waterfalls where time moves at different speeds due to gravitational effects"
+      }
+    ],
+    "activities": [
+      {
+        "name": "Underground City Tour",
+        "description": "Guided tour of the subterranean civilization",
+        "duration": "5 Earth days",
+        "price": 8000
+      },
+      {
+        "name": "Quantum Gardening Workshop",
+        "description": "Learn to tend the quantum gardens",
+        "duration": "3 Earth hours",
+        "price": 1500
+      },
+      {
+        "name": "Time Dilation Experience",
+        "description": "Supervised visit to the Time Dilation Falls",
+        "duration": "Variable",
+        "price": 10000
+      }
+    ],
+    "basePrice": 30000,
+    "currency": "Galactic Credits"
+  }
+]

@@ -1,0 +1,5 @@
+[
+  { "id": "spacesuit", "name": "Personal Spacesuit", "price": 5000 },
+  { "id": "camera", "name": "Zero-G Camera", "price": 1000 },
+  { "id": "food", "name": "Gourmet Space Food", "price": 2000 }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "NS-1000",
+    "name": "Nova Stellar 1000",
+    "manufacturer": "Astral Dynamics",
+    "type": "Luxury Liner",
+    "image": "/spaceship-1.jpg",
+    "price": 75000000,
+    "currency": "Galactic Credits",
+    "speed": {
+      "lightSpeed": 2.5,
+      "warpCapable": true,
+      "maxWarpFactor": 9.2,
+      "quantumDrive": true
+    },
+    "keyFeatures": [
+      "Quantum Navigation System",
+      "Triple-Layered Shield Generator",
+      "Anti-Matter Reactor Core",
+      "Emergency Teleportation System",
+      "Self-Repairing Hull"
+    ],
+    "amenities": [
+      {
+        "name": "Zero-G Spa",
+        "description": "Luxurious spa with anti-gravity massage pools"
+      },
+      {
+        "name": "Holographic Observatory",
+        "description": "360-degree view of space with augmented stellar information"
+      },
+      {
+        "name": "Cryogenic Suites",
+        "description": "20 premium sleeping pods for long-distance travel"
+      },
+      {
+        "name": "Quantum Kitchen",
+        "description": "AI-powered kitchen capable of replicating dishes from 500 worlds"
+      }
+    ],
+    "capacity": {
+      "crew": 15,
+      "passengers": 50
+    },
+    "dimensions": {
+      "length": "250 meters",
+      "width": "100 meters",
+      "height": "60 meters"
+    }
+  },
+  {
+    "id": "VS-750",
+    "name": "Voyager Swift 750",
+    "manufacturer": "Orbital Systems",
+    "type": "Explorer",
+    "image": "/spaceship-2.jpg",
+    "price": 45000000,
+    "currency": "Galactic Credits",
+    "speed": {
+      "lightSpeed": 3.0,
+      "warpCapable": true,
+      "maxWarpFactor": 8.5,
+      "quantumDrive": false
+    },
+    "keyFeatures": [
+      "Advanced Planetary Scanner",
+      "Adaptive Camouflage System",
+      "Multi-Terrain Landing Gear",
+      "Deep Space Communication Array",
+      "Automated Research Labs"
+    ],
+    "amenities": [
+      {
+        "name": "Science Bay",
+        "description": "Fully equipped research facility with quantum computers"
+      },
+      {
+        "name": "Hydroponics Garden",
+        "description": "Self-sustaining food production system"
+      },
+      {
+        "name": "Virtual Training Center",
+        "description": "Simulation room for crew training and recreation"
+      }
+    ],
+    "capacity": {
+      "crew": 8,
+      "passengers": 20
+    },
+    "dimensions": {
+      "length": "180 meters",
+      "width": "75 meters",
+      "height": "40 meters"
+    }
+  },
+  {
+    "id": "CT-500",
+    "name": "Cosmic Trader 500",
+    "manufacturer": "Mercantile Spaceways",
+    "type": "Cargo Vessel",
+    "image": "/spaceship-3.jpg",
+    "price": 35000000,
+    "currency": "Galactic Credits",
+    "speed": {
+      "lightSpeed": 2.0,
+      "warpCapable": true,
+      "maxWarpFactor": 7.8,
+      "quantumDrive": false
+    },
+    "keyFeatures": [
+      "Expanded Cargo Holds",
+      "Automated Loading System",
+      "Trade Route Optimizer",
+      "Anti-Piracy Defense Grid",
+      "Emergency Cargo Ejection"
+    ],
+    "amenities": [
+      {
+        "name": "Trader's Lounge",
+        "description": "Comfortable meeting space for business negotiations"
+      },
+      {
+        "name": "Quick-Sleep Pods",
+        "description": "Efficient rest modules for long haul journeys"
+      },
+      {
+        "name": "Market Analysis Center",
+        "description": "Real-time galactic trade data and analytics"
+      }
+    ],
+    "capacity": {
+      "crew": 5,
+      "passengers": 10,
+      "cargo": "50000 metric tons"
+    },
+    "dimensions": {
+      "length": "300 meters",
+      "width": "120 meters",
+      "height": "80 meters"
+    }
+  },
+  {
+    "id": "PR-200",
+    "name": "Phantom Runner 200",
+    "manufacturer": "Stealth Dynamics",
+    "type": "Scout Vessel",
+    "image": "/spaceship-4.jpg",
+    "price": 28000000,
+    "currency": "Galactic Credits",
+    "speed": {
+      "lightSpeed": 3.5,
+      "warpCapable": true,
+      "maxWarpFactor": 9.5,
+      "quantumDrive": true
+    },
+    "keyFeatures": [
+      "Stealth Cloaking System",
+      "Advanced Sensor Suite",
+      "Quantum Signature Masking",
+      "Silent Propulsion System",
+      "Emergency Phase Shifter"
+    ],
+    "amenities": [
+      {
+        "name": "Tactical Command Center",
+        "description": "Advanced monitoring and control station"
+      },
+      {
+        "name": "Smart Quarters",
+        "description": "AI-optimized living spaces for maximum efficiency"
+      },
+      {
+        "name": "Meditation Pod",
+        "description": "Stress-relief chamber with neural synchronization"
+      }
+    ],
+    "capacity": {
+      "crew": 3,
+      "passengers": 5
+    },
+    "dimensions": {
+      "length": "100 meters",
+      "width": "40 meters",
+      "height": "25 meters"
+    }
+  }
+]

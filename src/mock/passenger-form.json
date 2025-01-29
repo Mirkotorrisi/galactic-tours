@@ -1,0 +1,32 @@
+[
+  {
+    "field": "name",
+    "label": "Name",
+    "type": "text",
+    "required": true
+  },
+  {
+    "field": "surname",
+    "label": "Surname",
+    "type": "text",
+    "required": true
+  },
+  {
+    "field": "dateOfBirth",
+    "label": "Date of Birth",
+    "type": "date",
+    "required": true
+  },
+  {
+    "field": "passportNumber",
+    "label": "Passport Number",
+    "type": "text",
+    "required": true
+  },
+  {
+    "field": "needsAccessibility",
+    "label": "Needs Accessibility",
+    "type": "checkbox",
+    "required": false
+  }
+]
