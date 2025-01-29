@@ -1,14 +1,14 @@
+"use client";
+
+import { useAppSelector } from "@/lib/hooks";
 import Addons from "./steps/Addons";
 import Confirmation from "./steps/Confirmation";
 import Date from "./steps/Date";
 import Destination from "./steps/Destination";
 import Passengers from "./steps/Passengers";
 
-type Props = {
-  step: number;
-};
-
-const Steps = ({ step }: Props) => {
+const Steps = () => {
+  const { step } = useAppSelector((state) => state.booking);
   switch (step) {
     case 1:
       return <Destination />;

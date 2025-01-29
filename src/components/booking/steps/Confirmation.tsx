@@ -1,15 +1,16 @@
+"use client";
+
 import Cta from "@/components/shared/Cta";
+import Title from "@/components/shared/Title";
 import { resetBooking } from "@/lib/bookingSlice";
 import { useAppDispatch, useAppSelector } from "@/lib/hooks";
-import { calcTotalPrice } from "../../../utils";
-import Title from "../../shared/Title";
+import { calcTotalPrice } from "@/utils";
 
 const ConfirmationStep = () => {
   const booking = useAppSelector((state) => state.booking);
   const dispatch = useAppDispatch();
 
   const handleConfirm = () => {
-    console.log("Booking confirmed:", booking);
     alert("Your journey is booked! Prepare for an unforgettable adventure!");
     dispatch(resetBooking());
   };

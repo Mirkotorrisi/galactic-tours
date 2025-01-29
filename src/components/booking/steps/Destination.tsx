@@ -1,14 +1,28 @@
+"use client";
+
+import { getDestination } from "@/actions/getDestination";
 import Cta from "@/components/shared/Cta";
-import { setStep } from "@/lib/bookingSlice";
+import { setDestination, setStep } from "@/lib/bookingSlice";
 import { useAppDispatch, useAppSelector } from "@/lib/hooks";
 import { ArrowBigLeft } from "lucide-react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+import { useEffect } from "react";
 import Title from "../../shared/Title";
 import KeyFeatures from "../../showcase/Keyfeatures";
 
 const DestinationStep = () => {
-  const { destination } = useAppSelector((state) => state.booking);
+  const query = useSearchParams();
+
   const dispatch = useAppDispatch();
+  const destination = useAppSelector((state) => state.booking.destination);
+
+  useEffect(() => {
+    const slug = query.get("destination");
+    if (!slug) return;
+    const destination = getDestination(slug);
+    if (destination) dispatch(setDestination(destination));
+  }, [query, dispatch]);
 
   return (
     <div className="space-y-4">

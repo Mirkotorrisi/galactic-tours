@@ -1,3 +1,5 @@
+"use client";
+
 import Cta from "@/components/shared/Cta";
 import { setStep, setTravelDate } from "@/lib/bookingSlice";
 import { useAppDispatch } from "@/lib/hooks";

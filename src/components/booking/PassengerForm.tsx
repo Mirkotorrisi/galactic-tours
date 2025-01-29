@@ -1,3 +1,5 @@
+"use client";
+
 import { removePassenger } from "@/lib/bookingSlice";
 import { useAppDispatch } from "@/lib/hooks";
 import passengerFormData from "@/mock/passenger-form.json";

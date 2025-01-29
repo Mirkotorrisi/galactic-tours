@@ -1,3 +1,5 @@
+"use client";
+
 import { setStep } from "@/lib/bookingSlice";
 import { useAppDispatch } from "@/lib/hooks";
 import { StepModel } from "@/models/types/step";

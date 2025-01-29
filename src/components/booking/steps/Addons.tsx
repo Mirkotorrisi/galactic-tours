@@ -1,3 +1,5 @@
+"use client";
+
 import SpaceshipCarousel from "@/components/booking/SpaceShipCarousel";
 import BackButton from "@/components/shared/BackButton";
 import Cta from "@/components/shared/Cta";

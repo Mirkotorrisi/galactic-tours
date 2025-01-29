@@ -1,3 +1,5 @@
+"use client";
+
 import PassengerForm from "@/components/booking/PassengerForm";
 import BackButton from "@/components/shared/BackButton";
 import Cta from "@/components/shared/Cta";
