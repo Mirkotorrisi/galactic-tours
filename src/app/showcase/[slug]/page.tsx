@@ -1,7 +1,7 @@
 import { getDestination } from "@/actions/getDestination";
 import Details from "@/components/showcase/DestinationDetails";
 
-export default async function Page({ params }: { params: { slug: string } }) {
+export default function Page({ params }: { params: { slug: string } }) {
   const { slug } = params;
   const destination = getDestination(slug);
   return (

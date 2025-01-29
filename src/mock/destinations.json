@@ -59,7 +59,7 @@
       "rightAscension": "19h 54m 36.65s",
       "declination": "+43° 57′ 18.1″"
     },
-    "images": ["/proxima-c.jpg", "/proxima-c2.jpg"],
+    "images": ["/kepler-1.jpg", "/kepler-2.jpg"],
     "keyFeatures": [
       {
         "name": "Crystal Valleys",
@@ -105,7 +105,7 @@
       "rightAscension": "23h 06m 29.28s",
       "declination": "-05° 02′ 28.5″"
     },
-    "images": ["/proxima-c.jpg", "/proxima-c2.jpg"],
+    "images": ["/trappist-1.webp", "/trappist-2.webp"],
     "keyFeatures": [
       {
         "name": "Subterranean Metropolis",
