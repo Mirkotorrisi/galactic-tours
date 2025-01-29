@@ -7,7 +7,7 @@ import { useAppDispatch, useAppSelector } from "@/lib/hooks";
 import addonsData from "@/mock/addons.json";
 import { AddOn } from "@/models/types/addOn";
 
-export default function AddonsStep() {
+const AddonsStep = () => {
   const { addons, spaceShip } = useAppSelector((state) => state.booking);
   const dispatch = useAppDispatch();
 
@@ -55,4 +55,6 @@ export default function AddonsStep() {
       />
     </div>
   );
-}
+};
+
+export default AddonsStep;

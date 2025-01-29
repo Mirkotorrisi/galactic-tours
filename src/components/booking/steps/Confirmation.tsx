@@ -4,7 +4,7 @@ import { useAppDispatch, useAppSelector } from "@/lib/hooks";
 import { calcTotalPrice } from "../../../utils";
 import Title from "../../shared/Title";
 
-export default function ConfirmationStep() {
+const ConfirmationStep = () => {
   const booking = useAppSelector((state) => state.booking);
   const dispatch = useAppDispatch();
 
@@ -49,4 +49,6 @@ export default function ConfirmationStep() {
       </Cta>
     </div>
   );
-}
+};
+
+export default ConfirmationStep;

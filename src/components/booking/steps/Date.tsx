@@ -5,7 +5,7 @@ import { useState } from "react";
 import BackButton from "../../shared/BackButton";
 import Title from "../../shared/Title";
 
-export default function DateStep() {
+const DateStep = () => {
   const [date, setDate] = useState("");
   const dispatch = useAppDispatch();
 
@@ -35,4 +35,6 @@ export default function DateStep() {
       />
     </div>
   );
-}
+};
+
+export default DateStep;

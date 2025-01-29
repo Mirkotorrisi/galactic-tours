@@ -6,7 +6,7 @@ import Link from "next/link";
 import Title from "../../shared/Title";
 import KeyFeatures from "../../showcase/Keyfeatures";
 
-export default function DestinationStep() {
+const DestinationStep = () => {
   const { destination } = useAppSelector((state) => state.booking);
   const dispatch = useAppDispatch();
 
@@ -24,4 +24,6 @@ export default function DestinationStep() {
       </Link>
     </div>
   );
-}
+};
+
+export default DestinationStep;

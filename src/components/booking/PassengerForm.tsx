@@ -7,6 +7,7 @@ import { Trash } from "lucide-react";
 import type React from "react";
 import { useReducer } from "react";
 import { twMerge } from "tailwind-merge";
+
 type PassengerAction = {
   field: keyof Passenger;
   value: string | boolean;
